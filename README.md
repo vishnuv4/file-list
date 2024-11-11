@@ -8,10 +8,12 @@ VScode, Powershell, Python 3.12
 
 ## Setup
 
-1. The scripts folder has the actual code. The test folder is a playground to test it out.
-2. Save the .py file in a permanent location
-3. Add the powershell function in your profile
-4. Modify the powershell function - save the absolute path to the python file in the mentioned variable
+The scripts folder has the actual code. The test folder is a playground to test it out.
+
+1. Save the .py file in a permanent location
+2. Add the powershell function in your profile
+3. Modify the powershell function in your profile:
+   1. Save the absolute path to the python file in the mentioned variable
 
 ## Usage
 
