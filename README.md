@@ -29,6 +29,8 @@ You can use both at the same time, providing multiple comma-separated patterns t
 
 ## Example commands
 
+Open a powershell terminal in the ```test\``` folder and run these commands:
+
 ```
 file-list -i blah
 file-list -e .md
