@@ -23,9 +23,9 @@ def organize_files_by_type(root_dir=".", include=None, exclude=None):
     exclude_list = None
 
     if include is not None:
-        include_list = [item.strip() for item in "".join(include).split(",")]
+        include_list = [item.strip() for item in "".join(include).split(" ")]
     if exclude is not None:
-        exclude_list = [item.strip() for item in "".join(exclude).split(",")]
+        exclude_list = [item.strip() for item in "".join(exclude).split(" ")]
 
     include_regex = create_regex(include_list)
     exclude_regex = create_regex(exclude_list)
