@@ -41,7 +41,7 @@ def organize_files_by_type(root_dir=".", include=None, exclude=None):
         print()
         print(f"{filetype if filetype else 'No Extension'}:")
         for path in paths:
-            print(f"code {path}")
+            print(f"{path}")
 
     print()
     return file_dict

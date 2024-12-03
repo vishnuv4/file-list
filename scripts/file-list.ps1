@@ -4,7 +4,7 @@ function file-list {
         [Alias("e")][string]$exclude = ""
     )
 
-    $scriptPath = "<ABSOLUTE PATH TO file_list.py>"
+    $scriptPath = "<ABSOLUTE PATH TO file_list.py ON YOUR LOCAL SYSTEM>"
     $arguments = @()
 
     if ($include) {
